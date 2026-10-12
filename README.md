@@ -4,7 +4,7 @@ This is the work you'd do in your first 90 days, not a puzzle.
 
 **Time box: 3 hours. Deadline: 4 days from receipt.**
 
-Use Claude Code (or any AI tool) for the analysis and code. We care about your judgment and how you direct it, not whether you hand-write pandas. Read `CLAUDE.md` first.
+Use Claude Code (or any AI tool) for the analysis and code. We care about your judgment and how you direct it. Read `CLAUDE.md` first.
 
 ---
 
