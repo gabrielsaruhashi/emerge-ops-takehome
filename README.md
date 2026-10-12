@@ -46,7 +46,7 @@ The data is not perfectly clean. Real exports never are. Demand already outstrip
 
 ## Deliverables
 
-### 1. `COMMUNITY_PLAN.md` — your written plan (1,000 words max; write this yourself)
+### 1. A Google Doc — your written plan (1,000 words max; write this yourself)
 
 Four sections:
 
@@ -55,7 +55,7 @@ Four sections:
 - **Interventions.** What will you actually do? Who does it target, what's the format and cadence, who owns it?
 - **Measurement.** How do you know it's working? Name the metric and how you'd prove the intervention moved it.
 
-Diagrams or images are welcome if they add clarity. Word limit is a hard cap — we value conciseness.
+Diagrams or images are welcome if they add clarity. Word limit is a hard cap — we value conciseness. Share the doc with link-anyone-can-comment access and include the link when you submit.
 
 ### 2. A dashboard — renderable, not raw code
 
