@@ -1,40 +1,38 @@
 # Emerge Career: Ops Take-Home
 
-Thanks for taking the time. This is the work you'd do in your first 90 days, not a puzzle.
+This is the work you'd do in your first 90 days, not a puzzle.
 
-**Time box: 3 hours.**
+**Time box: 3 hours. Deadline: 4 days from receipt.**
 
-**Deadline: submit within 4 days of receipt.**
-
-**Use Claude Code (or your AI tool of choice) for the analysis and code.** We care about your judgment and how you direct the tool, not whether you hand-write pandas. Read `CLAUDE.md` first; it sets the rules your AI tool should follow in this repo.
+Use Claude Code (or any AI tool) for the analysis and code. We care about your judgment and how you direct it, not whether you hand-write pandas. Read `CLAUDE.md` first.
 
 ---
 
 ## Context
 
-Emerge Career trains justice-impacted people for CDL (commercial driver's license) careers in **NYC, Sacramento, and Boston**. The path looks like this:
+Emerge trains justice-impacted people for CDL careers in NYC, Sacramento, and Boston. The funnel:
 
-1. **Create account (CA).** Student signs up and usually builds a training plan (pace, study days, target permit date).
-2. **First video (FV).** Student finishes Lesson 1. This is activation.
-3. **Course complete (CC).** Student finishes all 21 online lessons.
-4. **Permit (CLP).** Student sits the Commercial Learner's Permit written exam in person at the DMV and passes.
+1. **Create account (CA).** Student signs up and builds a training plan.
+2. **First video (FV).** Student completes Lesson 1. This is activation.
+3. **Course complete (CC).** Student finishes all 21 lessons.
+4. **Permit (CLP).** Student passes the Commercial Learner's Permit written exam at the DMV.
 
-Today, roughly **1 in 10 signups ends up holding a permit.** Most of the loss happens between the first video and finishing the course.
+Roughly 1 in 10 signups holds a permit. Most loss happens between first video and course complete.
 
-Your job: figure out where students drop, decide which lever to pull, and build a dashboard so the team can operate it.
+Your job: find where students drop, pick the lever to pull, and build a dashboard so the team can operate it.
 
 ## The data
 
-Synthetic exports live in `data/`. The snapshot was taken **September 15, 2026 at 6:00 AM ET**. The field-by-field definitions are in `data/DATA_DICTIONARY.md` (same content as a spreadsheet in `data/README.csv`).
+Synthetic exports in `data/`. Snapshot taken **September 15, 2026 at 6:00 AM ET**. Field definitions in `data/DATA_DICTIONARY.md`.
 
 | File | Grain | Rows |
 |---|---|---|
-| `data/students.csv` | one row per student (user summary) | ~3,000 |
-| `data/lesson_events.csv` | one row per lesson a student completed | ~20,000 |
+| `data/students.csv` | one row per student | ~3,000 |
+| `data/lesson_events.csv` | one row per completed lesson | ~20,000 |
 | `data/lessons.csv` | one row per lesson in the course | 21 |
-| `data/seats_by_city.csv` | one row per city (training seats we can fund) | 3 |
+| `data/seats_by_city.csv` | one row per city | 3 |
 
-The data is not perfectly clean. Real exports never are. Demand already outstrips supply — we have roughly one seat for every ten students who sign up:
+The data is not clean. Demand outstrips supply about 10 to 1:
 
 | City | Students | Seats |
 |---|---|---|
@@ -46,31 +44,30 @@ The data is not perfectly clean. Real exports never are. Demand already outstrip
 
 ## Deliverables
 
-### 1. A Google Doc — your written plan (1,000 words max; write this yourself)
+### 1. A Google Doc (1,000 words max; write this yourself)
 
 Four sections:
 
-- **Problems.** What did you find in the funnel? Where does it break, for whom, and by how much?
-- **Priority.** Which problem are you going to work on first, and why that one over the others?
-- **Interventions.** What will you actually do? Who does it target, what's the format and cadence, who owns it?
-- **Measurement.** How do you know it's working? Name the metric and how you'd prove the intervention moved it.
+- **Problems.** Where does the funnel break, for whom, and by how much?
+- **Priority.** Which problem are you tackling first, and why?
+- **Interventions.** What will you run? Who does it target, what is the format and cadence, who owns it?
+- **Measurement.** What is the one number you are moving? How do you prove the intervention moved it?
 
-Diagrams or images are welcome if they add clarity. Word limit is a hard cap — we value conciseness. Share the doc with link-anyone-can-comment access and include the link when you submit.
+Diagrams welcome. 1,000 words is a hard cap. Share with link-anyone-can-comment and include the link when you submit.
 
-### 2. A dashboard — renderable, not raw code
+### 2. A dashboard (renderable, not raw code)
 
-Build something the team can open to monitor the cohort and track whether the interventions are working. HTML or a spreadsheet. Put the source code in `analysis/`.
+Something the team can open to monitor the cohort and track whether interventions are working. HTML or a spreadsheet. Source code in `analysis/`.
 
 ---
 
-## How we'll evaluate
+## How we evaluate
 
-- **Critical thinking**
-- **Strategy**
-- **AI fluency**
-- **Prioritization & execution**
+- Critical thinking
+- Strategy
+- AI fluency
+- Prioritization and execution
 
 ## Ground rules
 
-- The data is synthetic. No real students are in it.
-- Questions? Email us. If we can't answer fast, make a call, write down your assumption, and keep going.
+The data is synthetic. Questions? Email us. If we can't answer fast, make a call, write down the assumption, and keep going.
