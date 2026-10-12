@@ -4,7 +4,7 @@ Guardrails for any AI coding assistant working in this repo. The candidate may a
 
 ## What this repo is
 
-A take-home for an Ops role at Emerge Career. Emerge trains justice-impacted adults for CDL careers in NYC, Sacramento, and Boston. The data in `data/` is **synthetic**, exported as of **2026-09-15 06:00 ET**. Definitions are in `data/DATA_DICTIONARY.md`. Read it before writing any analysis.
+A take-home for an Ops role at Emerge Career. Emerge trains justice-impacted adults for CDL careers in NYC, Sacramento, and Boston. The data in `data/` is synthetic, exported as of 2026-09-15 06:00 ET. Definitions are in `data/DATA_DICTIONARY.md`. Read it before writing any analysis.
 
 ## Hard rules
 
@@ -25,27 +25,3 @@ A take-home for an Ops role at Emerge Career. Emerge trains justice-impacted adu
 - Stage rates are step-to-step: FV/CA, CC/FV, Permit/CC.
 - Recent signups haven't had time to finish. When you report a rate, say which signup window it covers and why.
 - When `lessons_completed` and `lesson_events.csv` disagree, trust `lesson_events.csv` and log the mismatch.
-
-## Writing for and about our students
-
-These rules apply to every message draft, plan, and memo.
-
-- **Never reference incarceration, parole, probation, a record, or a conviction in a student message.** Referral source is for analysis only.
-- Plain language, 6th-grade reading level. SMS drafts stay under 320 characters.
-- Warm, direct, no guilt. Don't say "you fell behind" or "you haven't." Point to the next small step.
-- Write in the student's `preferred_language`. If you can't write it well, mark the draft `NEEDS TRANSLATION` instead of guessing.
-- Respect their plan. Time the message to `plan_study_time` and `plan_study_days` when they exist.
-- Every automated message includes an opt-out ("Reply STOP to stop texts").
-- No fake urgency, no made-up deadlines, no promises about jobs or pay.
-- Use `user_id` only. Don't invent names, phone numbers, or personal details.
-
-## Style for written deliverables
-
-- Short sentences. Lead with the answer.
-- No filler openers ("In today's landscape…", "It's worth noting…").
-- Tables over paragraphs when comparing numbers.
-- Recommendations name an owner, a cadence, and a metric.
-
-## When unsure
-
-Stop and write the assumption in `analysis/DATA_NOTES.md`, then continue. Don't guess quietly.
