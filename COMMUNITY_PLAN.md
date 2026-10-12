@@ -1,13 +1,17 @@
 # Community Plan
 
-## What the data shows
-_Where and why starters drop, and the numbers your plan rests on._
+**1,000 words max. Write this yourself — AI can crunch the numbers, but the reasoning is yours. Diagrams or images welcome.**
 
-## Who it targets
-_The segment and its size._
+---
 
-## What it is
-_Formats, cadence, who runs it._
+## Problems
+_What did you find in the funnel? Where does it break, for whom, and by how much?_
 
-## How you'd measure it
-_The one number you'd move, and how you'd prove it worked._
+## Priority
+_Which problem are you going to work on first, and why that one over the others?_
+
+## Interventions
+_What will you actually do? Who does it target, what's the format and cadence, who owns it?_
+
+## Measurement
+_How do you know it's working? Name the metric and how you'd prove the intervention moved it — not just correlated with it._

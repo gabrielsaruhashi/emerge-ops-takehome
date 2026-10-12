@@ -6,7 +6,7 @@ Thanks for taking the time. This is the work you'd do in your first 90 days, not
 
 **Deadline: submit within 4 days of receipt.**
 
-**Use Claude Code (or your AI tool of choice) for the heavy lifting.** We care about your judgment and how you direct the tool, not whether you hand-write pandas. Read `CLAUDE.md` first; it sets the rules your AI tool should follow in this repo.
+**Use Claude Code (or your AI tool of choice) for the analysis and code.** We care about your judgment and how you direct the tool, not whether you hand-write pandas. Read `CLAUDE.md` first; it sets the rules your AI tool should follow in this repo.
 
 ---
 
@@ -21,7 +21,7 @@ Emerge Career trains justice-impacted people for CDL (commercial driver's licens
 
 Today, roughly **1 in 10 signups ends up holding a permit.** Most of the loss happens between the first video and finishing the course.
 
-Your job: figure out where and why students drop, and design a **community plan** that gets more of them through.
+Your job: figure out where students drop, decide which lever to pull, and build a dashboard so the team can operate it.
 
 ## The data
 
@@ -42,25 +42,26 @@ The data is not perfectly clean. Real exports never are. Demand already outstrip
 | Sacramento | ~750 | 75 |
 | Boston | ~250 | 25 |
 
-## The task: A community plan
-
-Design a community program that moves more starters through the course. Cover:
-
-- **Who it targets** (use the data to define the segment and size it)
-- **What it is** (formats, cadence, who runs it)
-- **How you'd measure it** (the one number you'd move, and how you'd prove it — some signals are self-selected)
-
-Also build a **dashboard** the team could use to run this plan day to day — who to reach, how the target number is trending, whether it's working. Make it renderable — something someone can open and read (HTML, a spreadsheet, etc.), not raw code.
-
 ---
 
 ## Deliverables
 
-1. **`COMMUNITY_PLAN.md`**: your plan, including a section that writes up the analysis behind it — the numbers your plan rests on. Put any supporting code in `analysis/` so we can rebuild them from `data/`.
-2. **A dashboard** to operationalize the plan. Renderable — HTML, a spreadsheet, etc.
-3. **`ai_usage/`**: your key prompts or a session transcript. We want to see how you steered the tool, including where you pushed back on it.
+### 1. `COMMUNITY_PLAN.md` — your written plan (1,000 words max; write this yourself)
 
-Send a zip or a repo link.
+Four sections:
+
+- **Problems.** What did you find in the funnel? Where does it break, for whom, and by how much?
+- **Priority.** Which problem are you going to work on first, and why that one over the others?
+- **Interventions.** What will you actually do? Who does it target, what's the format and cadence, who owns it?
+- **Measurement.** How do you know it's working? Name the metric and how you'd prove the intervention moved it.
+
+Diagrams or images are welcome if they add clarity. Word limit is a hard cap — we value conciseness.
+
+### 2. A dashboard — renderable, not raw code
+
+Build something the team can open to monitor the cohort and track whether the interventions are working. HTML or a spreadsheet. Put the source code in `analysis/`.
+
+---
 
 ## How we'll evaluate
 

@@ -8,7 +8,7 @@ A take-home for an Ops role at Emerge Career. Emerge trains justice-impacted adu
 
 ## Hard rules
 
-1. **Never send, post, or schedule anything.** No SMS, email, WhatsApp, Slack, or API calls to messaging tools. Message drafts are files in `outbox/` and nothing else.
+1. **Never send, post, or schedule anything.** No SMS, email, WhatsApp, Slack, or API calls to messaging tools.
 2. **No network calls for data.** Everything you need is in `data/`. Don't fetch, scrape, or invent outside data.
 3. **Don't modify files in `data/`.** Treat them as read-only source. Write cleaned copies to `analysis/` if you need them.
 4. **Every number must be computed from the files.** No estimates presented as findings. If a number came from a script, the script lives in `analysis/` and reruns from scratch.
