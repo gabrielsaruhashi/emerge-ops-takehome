@@ -48,7 +48,7 @@ The data is not clean. Demand outstrips supply about 10 to 1:
 
 This should represent your own thinking and writing. AI is fine for spell-check and editing, but the reasoning, structure, and conclusions should be yours — not generated.
 
-Four sections:
+Your goal: design an intervention plan that fills our seats faster. Four sections:
 
 - **Problems.** Where does the funnel break, for whom, and by how much?
 - **Priority.** Which problem are you tackling first, and why?
