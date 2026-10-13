@@ -52,7 +52,7 @@ Four sections:
 
 - **Problems.** Where does the funnel break, for whom, and by how much?
 - **Priority.** Which problem are you tackling first, and why?
-- **Interventions.** What will you run? Who does it target, what is the format and cadence, who owns it?
+- **Interventions.** What will you run? Who does it target, what is the format and cadence?
 - **Measurement.** What is the one number you are moving? How do you prove the intervention moved it?
 
 Diagrams welcome. 1,000 words is a hard cap. Share with link-anyone-can-comment and include the link when you submit.
