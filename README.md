@@ -2,7 +2,7 @@
 
 This is the work you'd do in your first 90 days, not a puzzle.
 
-**Time box: 3 hours. Deadline: 4 days from receipt.**
+**Time box: ~4 hours (can be split across days). Deadline: 4 days from receipt.**
 
 Use Claude Code (or any AI tool) for the analysis and code. We care about your judgment and how you direct it. Read `CLAUDE.md` first.
 
@@ -44,7 +44,9 @@ The data is not clean. Demand outstrips supply about 10 to 1:
 
 ## Deliverables
 
-### 1. A Google Doc (1,000 words max; write this yourself)
+### 1. A Google Doc (1,000 words max)
+
+This should represent your own thinking and writing. AI is fine for spell-check and editing, but the reasoning, structure, and conclusions should be yours — not generated.
 
 Four sections:
 
